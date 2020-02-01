@@ -1,0 +1,360 @@
+/*! CSS Used from: Embedded */
+div,font,form,h3,label,p,span{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    background:0 0;
+    font-size:100%;
+    vertical-align:baseline;
+    -webkit-text-size-adjust:100%;
+    -ms-text-size-adjust:100%;
+}
+ :focus{
+    outline:0;
+}
+ p{
+    padding-bottom:1em;
+}
+ p:not(.has-background):last-of-type{
+    padding-bottom:0;
+}
+ h3{
+    padding-bottom:10px;
+    color:#333;
+    font-weight:500;
+    line-height:1em;
+}
+ h3{
+    font-size:22px;
+}
+ input{
+    -webkit-appearance:none;
+}
+ input[type=email],input[type=tel],textarea{
+    padding:2px;
+    border:1px solid #bbb;
+    color:#4e4e4e;
+    background-color:#fff;
+}
+ textarea:focus{
+    border-color:#2d3940;
+    color:#3e3e3e;
+}
+ textarea{
+    margin:0;
+}
+ textarea{
+    padding:4px;
+}
+ input,textarea{
+    font-family:inherit;
+}
+ *{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+ @media all and (min-width:981px){
+     .et_pb_gutters3 .et_pb_column{
+        margin-right:5.5%;
+    }
+     .et_pb_gutters3 .et_pb_column_4_4{
+        width:100%;
+    }
+     .et_pb_gutters3 .et_pb_column_4_4 .et_pb_module{
+        margin-bottom:2.75%;
+    }
+}
+ @media all and (max-width:479px){
+     .et_pb_column{
+        width:100%!important;
+    }
+}
+ .et_pb_text{
+    word-wrap:break-word;
+}
+ .et_pb_row{
+    position:relative;
+    width:80%;
+    max-width:1080px;
+    margin:auto;
+}
+ .et_pb_column{
+    float:left;
+    position:relative;
+    z-index:2;
+    background-position:center;
+    background-size:cover;
+}
+ .et_pb_css_mix_blend_mode_passthrough{
+    mix-blend-mode:unset!important;
+}
+ .et_pb_column,.et_pb_module,.et_pb_row,.et_pb_with_background{
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+ .et_pb_row:after{
+    display:block;
+    visibility:hidden;
+    clear:both;
+    width:0;
+    height:0;
+    line-height:0;
+    content:"";
+}
+ .et_pb_section{
+    background-position:center;
+    -webkit-background-size:100%;
+    -webkit-background-size:cover;
+    -moz-background-size:100%;
+    -moz-background-size:cover;
+    background-size:100%;
+    background-size:cover;
+}
+ .et_pb_text>:last-child{
+    padding-bottom:0;
+}
+ .et_pb_text_inner{
+    position:relative;
+}
+ .et_pb_text_align_left{
+    text-align:left;
+}
+ .et_pb_section{
+    position:relative;
+    background-color:#fff;
+}
+ .et_pb_row .et_pb_column.et-last-child,.et_pb_row .et_pb_column:last-child{
+    margin-right:0!important;
+}
+ .et_pb_module{
+    -webkit-animation-timing-function:linear;
+    -moz-animation-timing-function:linear;
+    -o-animation-timing-function:linear;
+    animation-timing-function:linear;
+}
+ .et_pb_module{
+    -webkit-animation-duration:.2s;
+    -moz-animation-duration:.2s;
+    -o-animation-duration:.2s;
+    animation-duration:.2s;
+}
+ @media all and (min-width:981px){
+     .et_pb_section{
+        padding:4% 0;
+    }
+     .et_pb_row{
+        padding:2% 0;
+    }
+     .et_pb_section .et_pb_row .et_pb_column .et_pb_module:last-child{
+        margin-bottom:0;
+    }
+     .et_pb_row .et_pb_column.et-last-child,.et_pb_row .et_pb_column:last-child{
+        margin-right:0!important;
+    }
+}
+ @media all and (max-width:980px){
+     .et_pb_column{
+        width:100%;
+        margin-bottom:30px;
+    }
+     .et_pb_section{
+        padding:50px 0;
+    }
+     .et_pb_row{
+        padding:30px 0;
+    }
+     .et_pb_row .et_pb_column.et-last-child,.et_pb_row .et_pb_column:last-child{
+        margin-bottom:0;
+    }
+     .et_pb_column .et_pb_module{
+        margin-bottom:30px;
+    }
+     .et_pb_row .et_pb_column .et_pb_module:last-child{
+        margin-bottom:0;
+    }
+     .et_pb_row{
+        max-width:1080px;
+    }
+}
+/*! CSS Used from: https://kamagragel-hrvatska.com/wp-content/themes/divi-child/style.css?ver=4.0.9 ;
+ media=all */
+ @media all{
+     *{
+        font-family:"Arial";
+    }
+     .contact-h-box p input::-webkit-input-placeholder{
+        color:#4e566d;
+    }
+     .contact-h-box p input::-moz-placeholder{
+        color:#4e566d;
+    }
+     .contact-h-box p input:-ms-input-placeholder{
+        color:#4e566d;
+    }
+     .contact-h-box p input:-moz-placeholder{
+        color:#4e566d;
+    }
+     .contact-h-box2 p textarea::-webkit-input-placeholder{
+        color:#4e566d;
+    }
+     .contact-h-box2 p textarea::-moz-placeholder{
+        color:#4e566d;
+    }
+     .contact-h-box2 p textarea:-ms-input-placeholder{
+        color:#4e566d;
+    }
+     .contact-h-box2 p textarea:-moz-placeholder{
+        color:#4e566d;
+    }
+}
+/*! CSS Used from: https://kamagragel-hrvatska.com/wp-content/et-cache/7/et-core-unified-7-15805134678544.min.css */
+ .et_pb_row{
+    max-width:1136px;
+}
+ @media only screen and (min-width:1420px){
+     .et_pb_row{
+        padding:28px 0;
+    }
+     .et_pb_section{
+        padding:56px 0;
+    }
+}
+ .et_pb_row{
+    width:100%;
+}
+ .et_pb_row{
+    width:100%;
+}
+ .contact-sec-home .et_pb_text_inner h3{
+    font-family:"Gotham-Black";
+    letter-spacing:-1px;
+}
+ .contact-h-mainp{
+    max-width:935px;
+    margin:0 auto;
+    margin-top:79px;
+}
+ .contact-h-mainp label{
+    color:#ffffff;
+    font-size:14px;
+    text-transform:uppercase;
+    font-family:"Gotham-Black";
+}
+ .contact-h-row1{
+    display:flex;
+    justify-content:space-between;
+}
+ .contact-h-box{
+    width:48%;
+}
+ .contact-h-box p input{
+    width:100%;
+    border:0;
+    height:62px;
+    border-radius:6px;
+    background:#fff;
+    padding-left:21px;
+    color:#4e566d;
+    font-family:"Gotham-Black";
+}
+ .contact-h-mainp label{
+    color:#ffffff;
+    font-size:14px;
+    text-transform:uppercase;
+    font-family:"Gotham-Black";
+    display:block;
+    margin-bottom:14px;
+}
+ .contact-h-box p{
+    width:100%;
+    margin-bottom:9px;
+}
+ .contact-h-box2 p textarea{
+    width:100%;
+    border:0;
+    padding-left:21px;
+    padding-top:10px;
+    border-radius:6px;
+    height:150px;
+    color:#4e566d;
+    font-family:"Gotham-Black";
+}
+ .sub-btn-h{
+    text-align:center;
+    margin-top:15px;
+}
+ .sub-btn-h input{
+    color:#ffffff;
+    border:2px solid #4ab6ed;
+    text-align:center;
+    text-transform:uppercase;
+    font-family:"Gotham-Black";
+    font-size:14px;
+    height:60px;
+    line-height:60px;
+    border-radius:6px;
+    margin-top:14px;
+    background:#4ab6ed;
+    padding:0 40px;
+    cursor:pointer;
+}
+ @media (max-width:1200px){
+     .et_pb_row{
+        max-width:95%!important;
+    }
+}
+ @media (max-width:980px){
+     .contact-h-mainp{
+        margin-top:40px;
+    }
+}
+ @media (max-width:767px){
+     .contact-h-row1{
+        display:block;
+    }
+     .contact-h-box{
+        width:100%;
+    }
+     .sub-btn-h input{
+        width:100%;
+    }
+}
+ @media (max-width:480px){
+     .et_pb_row{
+        max-width:90%;
+    }
+     .et_pb_row{
+        max-width:92%!important;
+    }
+}
+ div.et_pb_section.et_pb_section_7{
+    background-image:url(../images//2020/01/contact-bg-min.jpg)!important;
+}
+ .et_pb_section_7.et_pb_section{
+    padding-top:73px;
+    padding-bottom:73px;
+}
+ .et_pb_text_20 h3{
+    font-weight:800;
+    text-transform:uppercase;
+    font-size:36px;
+    color:#ffffff!important;
+    text-align:center;
+}
+ @media only screen and (max-width:980px){
+     .et_pb_text_20 h3{
+        font-size:30px;
+    }
+     .et_pb_section_7.et_pb_section{
+        padding-top:15px;
+        padding-bottom:15px;
+    }
+}
+ @media only screen and (max-width:767px){
+     .et_pb_text_20 h3{
+        font-size:24px;
+    }
+}
