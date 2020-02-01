@@ -1,0 +1,389 @@
+/*! CSS Used from: Embedded */
+div,form,h1,h3,p,span{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    background:0 0;
+    font-size:100%;
+    vertical-align:baseline;
+    -webkit-text-size-adjust:100%;
+    -ms-text-size-adjust:100%;
+}
+ :focus{
+    outline:0;
+}
+ p{
+    padding-bottom:1em;
+}
+ p:not(.has-background):last-of-type{
+    padding-bottom:0;
+}
+ h1,h3{
+    padding-bottom:10px;
+    color:#333;
+    font-weight:500;
+    line-height:1em;
+}
+ h1{
+    font-size:30px;
+}
+ h3{
+    font-size:22px;
+}
+ input{
+    -webkit-appearance:none;
+}
+ input[type=text],select,textarea{
+    padding:2px;
+    border:1px solid #bbb;
+    color:#4e4e4e;
+    background-color:#fff;
+}
+ input[type=text]:focus,select:focus,textarea:focus{
+    border-color:#2d3940;
+    color:#3e3e3e;
+}
+ input[type=text],select,textarea{
+    margin:0;
+}
+ textarea{
+    padding:4px;
+}
+ input,select,textarea{
+    font-family:inherit;
+}
+ *{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+ @media all and (min-width:981px){
+     .et_pb_gutters3 .et_pb_column{
+        margin-right:5.5%;
+    }
+     .et_pb_gutters3 .et_pb_column_1_2{
+        width:47.25%;
+    }
+     .et_pb_gutters3 .et_pb_column_1_2 .et_pb_module{
+        margin-bottom:5.82%;
+    }
+}
+ @media all and (max-width:479px){
+     .et_pb_column{
+        width:100%!important;
+    }
+}
+ .et_pb_text{
+    word-wrap:break-word;
+}
+ .et_pb_row{
+    position:relative;
+    width:80%;
+    max-width:1080px;
+    margin:auto;
+}
+ .et_pb_column{
+    float:left;
+    position:relative;
+    z-index:2;
+    background-position:center;
+    background-size:cover;
+}
+ .et_pb_css_mix_blend_mode_passthrough{
+    mix-blend-mode:unset!important;
+}
+ .et_pb_column,.et_pb_module,.et_pb_row,.et_pb_with_background{
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+ .et_pb_row:after{
+    display:block;
+    visibility:hidden;
+    clear:both;
+    width:0;
+    height:0;
+    line-height:0;
+    content:"";
+}
+ .et_pb_section{
+    background-position:center;
+    -webkit-background-size:100%;
+    -webkit-background-size:cover;
+    -moz-background-size:100%;
+    -moz-background-size:cover;
+    background-size:100%;
+    background-size:cover;
+}
+ .et_pb_text>:last-child{
+    padding-bottom:0;
+}
+ .et_pb_text_inner{
+    position:relative;
+}
+ .et_pb_text_align_left{
+    text-align:left;
+}
+ .et_pb_section{
+    position:relative;
+    background-color:#fff;
+}
+ .et_pb_row .et_pb_column.et-last-child,.et_pb_row .et_pb_column:last-child{
+    margin-right:0!important;
+}
+ .et_pb_module{
+    -webkit-animation-timing-function:linear;
+    -moz-animation-timing-function:linear;
+    -o-animation-timing-function:linear;
+    animation-timing-function:linear;
+}
+ .et_pb_module{
+    -webkit-animation-duration:.2s;
+    -moz-animation-duration:.2s;
+    -o-animation-duration:.2s;
+    animation-duration:.2s;
+}
+ @media all and (min-width:981px){
+     .et_pb_section{
+        padding:4% 0;
+    }
+     .et_pb_row{
+        padding:2% 0;
+    }
+     .et_pb_section .et_pb_row .et_pb_column .et_pb_module:last-child{
+        margin-bottom:0;
+    }
+     .et_pb_row .et_pb_column.et-last-child,.et_pb_row .et_pb_column:last-child{
+        margin-right:0!important;
+    }
+}
+ @media all and (max-width:980px){
+     .et_pb_column{
+        width:100%;
+        margin-bottom:30px;
+    }
+     .et_pb_section{
+        padding:50px 0;
+    }
+     .et_pb_row{
+        padding:30px 0;
+    }
+     .et_pb_row .et_pb_column.et-last-child,.et_pb_row .et_pb_column:last-child{
+        margin-bottom:0;
+    }
+     .et_pb_column .et_pb_module{
+        margin-bottom:30px;
+    }
+     .et_pb_row .et_pb_column .et_pb_module:last-child{
+        margin-bottom:0;
+    }
+     .et_pb_row{
+        max-width:1080px;
+    }
+}
+/*! CSS Used from: https://kamagragel-hrvatska.com/wp-content/themes/divi-child/style.css?ver=4.0.9 ;
+ media=all */
+ @media all{
+     *{
+        font-family:"Arial";
+    }
+     .banner-contact-row p input::-webkit-input-placeholder{
+        color:#fff;
+    }
+     .banner-contact-row p input::-moz-placeholder{
+        color:#fff;
+    }
+     .banner-contact-row p input:-ms-input-placeholder{
+        color:#fff;
+    }
+     .banner-contact-row p input:-moz-placeholder{
+        color:#fff;
+    }
+     .banner-contact-row2 p textarea::-webkit-input-placeholder{
+        color:#fff;
+    }
+     .banner-contact-row2 p textarea::-moz-placeholder{
+        color:#fff;
+    }
+     .banner-contact-row2 p textarea:-ms-input-placeholder{
+        color:#fff;
+    }
+     .banner-contact-row2 p textarea:-moz-placeholder{
+        color:#fff;
+    }
+}
+/*! CSS Used from: https://kamagragel-hrvatska.com/wp-content/et-cache/7/et-core-unified-7-15805134678544.min.css */
+ .et_pb_row{
+    max-width:1136px;
+}
+ @media only screen and (min-width:1420px){
+     .et_pb_row{
+        padding:28px 0;
+    }
+     .et_pb_section{
+        padding:56px 0;
+    }
+}
+ .et_pb_row{
+    width:100%;
+}
+ .home-banner-sec{
+    margin-top:-80px;
+    padding-top:16%!important;
+}
+ .banner-title h1{
+    font-weight:900;
+    font-family:"Gotham-Black";
+    padding-bottom:30px;
+}
+ .banner-title p{
+    font-family:"Gotham-Light";
+    line-height:1.2;
+}
+ .banner-title{
+    margin-bottom:86px!important;
+}
+ .et_pb_row{
+    width:100%;
+}
+ .home-banner-sec{
+    margin-top:-80px;
+    padding-top:16%!important;
+}
+ .banner-contact-row{
+    display:flex;
+    justify-content:space-between;
+}
+ .banner-contact-row p{
+    width:49%;
+    padding-bottom:0;
+    margin-bottom:10px;
+}
+ .banner-contact-row p input,.banner-contact-row2 p textarea{
+    width:100%;
+    border:2px solid #6878a1;
+    background:transparent;
+    height:42px;
+    color:#fff;
+    font-family:"Gotham-Black";
+    font-size:14px;
+    border-radius:6px;
+    padding-left:10px;
+}
+ .banner-contact-row p select{
+    width:100%;
+    border:2px solid #4ab6ed;
+    background:transparent;
+    height:42px;
+    color:#ffffff;
+    font-family:"Gotham-Black";
+    font-size:14px;
+    border-radius:6px;
+    padding-left:10px;
+}
+ .banner-contact-row p select option{
+    color:#4ab6ed;
+}
+ .banner-contact-row2 p textarea{
+    height:70px;
+}
+ p.sub-btn-b input{
+    height:62px;
+    border:2px solid #fff;
+    background:transparent;
+    width:100%;
+    font-size:14px;
+    text-transform:uppercase;
+    color:#ffffff;
+    font-family:"Gotham-Black";
+    border-radius:6px;
+    cursor:pointer;
+}
+ .banner-contact-row p input:focus{
+    border:2px solid #4ab6ed;
+}
+ @media (max-width:1200px){
+     .et_pb_row{
+        max-width:95%!important;
+    }
+}
+ @media (max-width:980px){
+     .home-banner-sec{
+        margin-top:-79px;
+        padding-top:10%!important;
+    }
+     .banner-title{
+        margin-bottom:50px!important;
+    }
+     .home-banner-sec{
+        padding-bottom:0;
+    }
+}
+ @media (max-width:767px){
+     .home-banner-sec{
+        background-position-x:23%;
+    }
+}
+ @media (max-width:480px){
+     .home-banner-sec{
+        padding-top:25%!important;
+    }
+     .banner-title p{
+        font-size:16px;
+    }
+     .banner-title h1{
+        padding-bottom:12px;
+    }
+     .banner-title{
+        margin-bottom:25px!important;
+    }
+     .banner-contact-row{
+        display:block;
+    }
+     .banner-contact-row p{
+        width:100%;
+    }
+     p.sub-btn-b input{
+        border:2px solid #4ab6ed;
+        background:#4ab6ed;
+    }
+     .et_pb_row{
+        max-width:90%;
+    }
+     .home .et_builder_inner_content div.et_pb_section.et_pb_section_0{
+        background-image:url(../images//2019/12/home-mobile-banner.jpg)!important;
+    }
+     .home-banner-sec{
+        background-position-x:0%;
+    }
+     .et_pb_row{
+        max-width:92%!important;
+    }
+}
+ div.et_pb_section.et_pb_section_0{
+    background-image:url(../images//2020/01/Kamagra-Gel.jpg)!important;
+}
+ .et_pb_text_0.et_pb_text{
+    color:#ffffff!important;
+}
+ .et_pb_text_0{
+    font-size:24px;
+}
+ .et_pb_text_0 h1{
+    font-size:48px;
+    color:#ffffff!important;
+}
+ @media only screen and (max-width:980px){
+     .et_pb_text_0 h1{
+        font-size:40px;
+    }
+}
+ @media only screen and (max-width:767px){
+     div.et_pb_section.et_pb_section_0{
+        background-image:url(../images//2020/01/home-mobile-banner-min-1.jpg)!important;
+    }
+     .et_pb_text_0 h1{
+        font-size:30px;
+    }
+}

@@ -1,0 +1,473 @@
+/*! CSS Used from: Embedded */
+a,div,h2,h4,img,p,span{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    background:0 0;
+    font-size:100%;
+    vertical-align:baseline;
+    -webkit-text-size-adjust:100%;
+    -ms-text-size-adjust:100%;
+}
+ :focus{
+    outline:0;
+}
+ a{
+    color:#2ea3f2;
+    text-decoration:none;
+}
+ a:hover{
+    text-decoration:none;
+}
+ p{
+    padding-bottom:1em;
+}
+ p:not(.has-background):last-of-type{
+    padding-bottom:0;
+}
+ h2,h4{
+    padding-bottom:10px;
+    color:#333;
+    font-weight:500;
+    line-height:1em;
+}
+ h2{
+    font-size:26px;
+}
+ h4{
+    font-size:18px;
+}
+ img{
+    max-width:100%;
+    height:auto;
+}
+ *{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+ .et_pb_button:after{
+    text-shadow:0 0;
+    font-family:ETmodules!important;
+    font-weight:400;
+    font-style:normal;
+    font-variant:normal;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    line-height:1;
+    text-transform:none;
+    speak:none;
+}
+ .et_pb_button{
+    position:relative;
+    padding:.3em 1em;
+    border:2px solid;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    background-color:transparent;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    font-size:20px;
+    font-weight:500;
+    line-height:1.7em!important;
+    -webkit-transition:all .2s;
+    -moz-transition:all .2s;
+    transition:all .2s;
+}
+ .et_pb_button:hover,.et_pb_module .et_pb_button:hover{
+    padding:.3em 2em .3em .7em;
+    border:2px solid transparent;
+}
+ .et_pb_button:hover{
+    background-color:rgba(255,255,255,.2);
+}
+ .et_pb_bg_layout_light.et_pb_button:hover{
+    background-color:rgba(0,0,0,.05);
+}
+ .et_pb_button:after,.et_pb_button:before{
+    position:absolute;
+    margin-left:-1em;
+    opacity:0;
+    text-shadow:none;
+    font-size:32px;
+    font-weight:400;
+    font-style:normal;
+    font-variant:none;
+    line-height:1em;
+    text-transform:none;
+    content:"\35";
+    -webkit-transition:all .2s;
+    -moz-transition:all .2s;
+    transition:all .2s;
+}
+ .et_pb_button:before{
+    display:none;
+}
+ .et_pb_button:hover:after{
+    margin-left:0;
+    opacity:1;
+}
+ @media all and (min-width:981px){
+     .et_pb_gutters3 .et_pb_column{
+        margin-right:5.5%;
+    }
+     .et_pb_gutters3 .et_pb_column_4_4{
+        width:100%;
+    }
+     .et_pb_gutters3 .et_pb_column_4_4 .et_pb_module{
+        margin-bottom:2.75%;
+    }
+     .et_pb_gutters3 .et_pb_column_1_3{
+        width:29.6667%;
+    }
+     .et_pb_gutters3 .et_pb_column_1_3 .et_pb_module{
+        margin-bottom:9.27%;
+    }
+}
+ @media all and (max-width:479px){
+     .et_pb_column{
+        width:100%!important;
+    }
+}
+ .et_pb_column_1_3 h4{
+    font-size:18px;
+}
+ .et_pb_text{
+    word-wrap:break-word;
+}
+ .et_pb_row{
+    position:relative;
+    width:80%;
+    max-width:1080px;
+    margin:auto;
+}
+ .et_pb_column{
+    float:left;
+    position:relative;
+    z-index:2;
+    background-position:center;
+    background-size:cover;
+}
+ .et_pb_css_mix_blend_mode_passthrough{
+    mix-blend-mode:unset!important;
+}
+ .et_pb_column,.et_pb_module,.et_pb_row{
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+ .et_pb_image{
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    line-height:0;
+}
+ .et_pb_image{
+    display:block;
+}
+ .et_pb_image .et_pb_image_wrap{
+    display:inline-block;
+    position:relative;
+    max-width:100%;
+}
+ .et_pb_image img{
+    position:relative;
+}
+ .et_pb_button_module_wrapper.et_pb_button_alignment_center{
+    text-align:center;
+}
+ .et_pb_button_module_wrapper>a{
+    display:inline-block;
+}
+ .et_pb_row:after{
+    display:block;
+    visibility:hidden;
+    clear:both;
+    width:0;
+    height:0;
+    line-height:0;
+    content:"";
+}
+ .et_pb_section{
+    background-position:center;
+    -webkit-background-size:100%;
+    -webkit-background-size:cover;
+    -moz-background-size:100%;
+    -moz-background-size:cover;
+    background-size:100%;
+    background-size:cover;
+}
+ .et_pb_text>:last-child{
+    padding-bottom:0;
+}
+ .et_pb_text_inner{
+    position:relative;
+}
+ .et_pb_text_align_left{
+    text-align:left;
+}
+ .et_pb_section{
+    position:relative;
+    background-color:#fff;
+}
+ .et_pb_row .et_pb_column.et-last-child,.et_pb_row .et_pb_column:last-child{
+    margin-right:0!important;
+}
+ .et_pb_module{
+    -webkit-animation-timing-function:linear;
+    -moz-animation-timing-function:linear;
+    -o-animation-timing-function:linear;
+    animation-timing-function:linear;
+}
+ .et_pb_module{
+    -webkit-animation-duration:.2s;
+    -moz-animation-duration:.2s;
+    -o-animation-duration:.2s;
+    animation-duration:.2s;
+}
+ @media all and (min-width:981px){
+     .et_pb_section{
+        padding:4% 0;
+    }
+     .et_pb_row{
+        padding:2% 0;
+    }
+     .et_pb_section .et_pb_row .et_pb_column .et_pb_module:last-child{
+        margin-bottom:0;
+    }
+     .et_pb_row .et_pb_column.et-last-child,.et_pb_row .et_pb_column:last-child{
+        margin-right:0!important;
+    }
+}
+ @media all and (max-width:980px){
+     .et_pb_column{
+        width:100%;
+        margin-bottom:30px;
+    }
+     .et_pb_section{
+        padding:50px 0;
+    }
+     .et_pb_row{
+        padding:30px 0;
+    }
+     .et_pb_row .et_pb_column.et-last-child,.et_pb_row .et_pb_column:last-child{
+        margin-bottom:0;
+    }
+     .et_pb_column .et_pb_module{
+        margin-bottom:30px;
+    }
+     .et_pb_row .et_pb_column .et_pb_module:last-child{
+        margin-bottom:0;
+    }
+     .et_pb_row{
+        max-width:1080px;
+    }
+}
+/*! CSS Used from: https://kamagragel-hrvatska.com/wp-content/themes/divi-child/style.css?ver=4.0.9 ;
+ media=all */
+ @media all{
+     *{
+        font-family:"Arial";
+    }
+}
+/*! CSS Used from: https://kamagragel-hrvatska.com/wp-content/et-cache/7/et-core-unified-7-15805134678544.min.css */
+ .et_pb_row{
+    max-width:1136px;
+}
+ @media only screen and (min-width:1420px){
+     .et_pb_row{
+        padding:28px 0;
+    }
+     .et_pb_section{
+        padding:56px 0;
+    }
+}
+ .et_pb_row{
+    width:100%;
+}
+ .et_pb_row{
+    width:100%;
+}
+ .home-sec-1-box h4,.sec2-btn-p{
+    font-family:"Gotham-Black";
+}
+ .home-sec-1-box{
+    text-align:center;
+}
+ .home-sec-1-box h4{
+    margin-top:20px;
+    line-height:1.2;
+    margin-bottom:6px;
+}
+ @media (max-width:1200px){
+     .et_pb_row{
+        max-width:95%!important;
+    }
+}
+ @media (max-width:767px){
+     .mobile-btn-sec2{
+        display:none!important;
+    }
+}
+ @media (max-width:480px){
+     .et_pb_row{
+        max-width:90%;
+    }
+     .et_pb_row{
+        max-width:92%!important;
+    }
+}
+ .et_pb_section_1.et_pb_section{
+    padding-top:131px;
+    padding-bottom:129px;
+}
+ .et_pb_row_2.et_pb_row{
+    padding-top:0px!important;
+    padding-bottom:0px!important;
+    padding-top:0px;
+    padding-bottom:0px;
+}
+ .et_pb_row_1.et_pb_row{
+    padding-top:0px!important;
+    padding-bottom:0px!important;
+    padding-top:0px;
+    padding-bottom:0px;
+}
+ .et_pb_text_2{
+    padding-top:0px!important;
+    padding-right:0px!important;
+    padding-bottom:65px!important;
+    padding-left:0px!important;
+}
+ .et_pb_image_2{
+    margin-bottom:0px!important;
+    text-align:center;
+}
+ .et_pb_image_1{
+    margin-bottom:0px!important;
+    text-align:center;
+}
+ .et_pb_image_0{
+    margin-bottom:0px!important;
+    text-align:center;
+}
+ .et_pb_text_3.et_pb_text{
+    color:#7d828c!important;
+}
+ .et_pb_text_4.et_pb_text{
+    color:#7d828c!important;
+}
+ .et_pb_text_5.et_pb_text{
+    color:#7d828c!important;
+}
+ .et_pb_text_5{
+    line-height:1.5em;
+}
+ .et_pb_text_5 p{
+    line-height:1.5em;
+}
+ .et_pb_text_4{
+    line-height:1.5em;
+}
+ .et_pb_text_4 p{
+    line-height:1.5em;
+}
+ .et_pb_text_3{
+    line-height:1.5em;
+}
+ .et_pb_text_3 p{
+    line-height:1.5em;
+}
+ .et_pb_text_4 h4{
+    text-transform:uppercase;
+    color:#4e566d!important;
+    text-align:center;
+}
+ .et_pb_text_5 h4{
+    text-transform:uppercase;
+    color:#4e566d!important;
+    text-align:center;
+}
+ .et_pb_text_3 h4{
+    text-transform:uppercase;
+    color:#4e566d!important;
+    text-align:center;
+}
+ .et_pb_row_3.et_pb_row{
+    padding-top:70px!important;
+    padding-bottom:0px!important;
+    padding-top:70px;
+    padding-bottom:0px;
+}
+ .et_pb_button_0_wrapper .et_pb_button_0,.et_pb_button_0_wrapper .et_pb_button_0:hover{
+    padding-top:19px!important;
+    padding-right:78px!important;
+    padding-bottom:19px!important;
+    padding-left:78px!important;
+}
+ body #page-container .et_pb_section .et_pb_button_0{
+    color:#ffffff!important;
+    border-width:0px!important;
+    border-radius:5px;
+    letter-spacing:0px;
+    font-size:14px;
+    text-transform:uppercase!important;
+    background-color:#4ab6ed;
+}
+ body #page-container .et_pb_section .et_pb_button_0:before,body #page-container .et_pb_section .et_pb_button_0:after{
+    display:none!important;
+}
+ .et_pb_button_0,.et_pb_button_0:after{
+    transition:all 300ms ease 0ms;
+}
+ @media only screen and (max-width:980px){
+     .et_pb_section_1.et_pb_section{
+        padding-top:80px;
+        padding-bottom:80px;
+    }
+     .et_pb_image_0{
+        margin-left:auto;
+        margin-right:auto;
+    }
+     .et_pb_image_1{
+        margin-left:auto;
+        margin-right:auto;
+    }
+     .et_pb_image_2{
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+ @media only screen and (max-width:767px){
+     .et_pb_section_1.et_pb_section{
+        padding-top:40px;
+        padding-bottom:0px;
+    }
+     .et_pb_image_2{
+        margin-left:auto;
+        margin-right:auto;
+    }
+     .et_pb_image_1{
+        margin-left:auto;
+        margin-right:auto;
+    }
+     .et_pb_image_0{
+        margin-left:auto;
+        margin-right:auto;
+    }
+     .et_pb_row_3.et_pb_row{
+        padding-top:45px!important;
+        padding-top:45px!important;
+    }
+}
+/*! CSS Used fontfaces */
+ /* @font-face{
+    font-family:ETmodules;
+    src:url(https://kamagragel-hrvatska.com/wp-content/themes/Divi/core/admin/fonts/modules.eot);
+    src:url(https://kamagragel-hrvatska.com/wp-content/themes/Divi/core/admin/fonts/modules.eot?#iefix) format("embedded-opentype"),url(https://kamagragel-hrvatska.com/wp-content/themes/Divi/core/admin/fonts/modules.ttf) format("truetype"),url(https://kamagragel-hrvatska.com/wp-content/themes/Divi/core/admin/fonts/modules.woff) format("woff"),url(https://kamagragel-hrvatska.com/wp-content/themes/Divi/core/admin/fonts/modules.svg#ETmodules) format("svg");
+    font-weight:400;
+    font-style:normal;
+} */

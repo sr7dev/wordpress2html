@@ -1,0 +1,336 @@
+/*! CSS Used from: Embedded */
+div,font,h2,h3,h5,img,p,span{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    background:0 0;
+    font-size:100%;
+    vertical-align:baseline;
+    -webkit-text-size-adjust:100%;
+    -ms-text-size-adjust:100%;
+}
+ :focus{
+    outline:0;
+}
+ p{
+    padding-bottom:1em;
+}
+ p:not(.has-background):last-of-type{
+    padding-bottom:0;
+}
+ h2,h3,h5{
+    padding-bottom:10px;
+    color:#333;
+    font-weight:500;
+    line-height:1em;
+}
+ h2{
+    font-size:26px;
+}
+ h3{
+    font-size:22px;
+}
+ h5{
+    font-size:16px;
+}
+ img{
+    max-width:100%;
+    height:auto;
+}
+ *{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+ @media all and (min-width:981px){
+     .et_pb_gutters3 .et_pb_column{
+        margin-right:5.5%;
+    }
+     .et_pb_gutters3 .et_pb_column_4_4{
+        width:100%;
+    }
+     .et_pb_gutters3 .et_pb_column_4_4 .et_pb_module{
+        margin-bottom:2.75%;
+    }
+}
+ @media all and (max-width:479px){
+     .et_pb_column{
+        width:100%!important;
+    }
+}
+ .et_pb_text{
+    word-wrap:break-word;
+}
+ .et_pb_row{
+    position:relative;
+    width:80%;
+    max-width:1080px;
+    margin:auto;
+}
+ .et_pb_column{
+    float:left;
+    position:relative;
+    z-index:2;
+    background-position:center;
+    background-size:cover;
+}
+ .et_pb_css_mix_blend_mode_passthrough{
+    mix-blend-mode:unset!important;
+}
+ .et_pb_column,.et_pb_module,.et_pb_row,.et_pb_with_background{
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+ .et_pb_image{
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    line-height:0;
+}
+ .et_pb_image{
+    display:block;
+}
+ .et_pb_image .et_pb_image_wrap{
+    display:inline-block;
+    position:relative;
+    max-width:100%;
+}
+ .et_pb_image img{
+    position:relative;
+}
+ .et_pb_row:after{
+    display:block;
+    visibility:hidden;
+    clear:both;
+    width:0;
+    height:0;
+    line-height:0;
+    content:"";
+}
+ .et_pb_section{
+    background-position:center;
+    -webkit-background-size:100%;
+    -webkit-background-size:cover;
+    -moz-background-size:100%;
+    -moz-background-size:cover;
+    background-size:100%;
+    background-size:cover;
+}
+ .et_pb_text>:last-child{
+    padding-bottom:0;
+}
+ .et_pb_text_inner{
+    position:relative;
+}
+ .et_pb_text_align_left{
+    text-align:left;
+}
+ .et_pb_text_align_center{
+    text-align:center;
+}
+ .et_pb_section{
+    position:relative;
+    background-color:#fff;
+}
+ .et_pb_row .et_pb_column.et-last-child,.et_pb_row .et_pb_column:last-child{
+    margin-right:0!important;
+}
+ .et_pb_module{
+    -webkit-animation-timing-function:linear;
+    -moz-animation-timing-function:linear;
+    -o-animation-timing-function:linear;
+    animation-timing-function:linear;
+}
+ .et_pb_module{
+    -webkit-animation-duration:.2s;
+    -moz-animation-duration:.2s;
+    -o-animation-duration:.2s;
+    animation-duration:.2s;
+}
+ @media all and (min-width:981px){
+     .et_pb_section{
+        padding:4% 0;
+    }
+     .et_pb_row{
+        padding:2% 0;
+    }
+     .et_pb_section .et_pb_row .et_pb_column .et_pb_module:last-child{
+        margin-bottom:0;
+    }
+     .et_pb_row .et_pb_column.et-last-child,.et_pb_row .et_pb_column:last-child{
+        margin-right:0!important;
+    }
+}
+ @media all and (max-width:980px){
+     .et_pb_column{
+        width:100%;
+        margin-bottom:30px;
+    }
+     .et_pb_section{
+        padding:50px 0;
+    }
+     .et_pb_row{
+        padding:30px 0;
+    }
+     .et_pb_row .et_pb_column.et-last-child,.et_pb_row .et_pb_column:last-child{
+        margin-bottom:0;
+    }
+     .et_pb_column .et_pb_module{
+        margin-bottom:30px;
+    }
+     .et_pb_row .et_pb_column .et_pb_module:last-child{
+        margin-bottom:0;
+    }
+     .et_pb_row{
+        max-width:1080px;
+    }
+}
+/*! CSS Used from: https://kamagragel-hrvatska.com/wp-content/themes/divi-child/style.css?ver=4.0.9 ;
+ media=all */
+ @media all{
+     *{
+        font-family:"Arial";
+    }
+}
+/*! CSS Used from: https://kamagragel-hrvatska.com/wp-content/et-cache/7/et-core-unified-7-15805134678544.min.css */
+ .et_pb_row{
+    max-width:1136px;
+}
+ @media only screen and (min-width:1420px){
+     .et_pb_row{
+        padding:28px 0;
+    }
+     .et_pb_section{
+        padding:56px 0;
+    }
+}
+ .et_pb_row{
+    width:100%;
+}
+ .et_pb_row{
+    width:100%;
+}
+ .uzimanja-kamagre-title p{
+    color:#7d828c;
+    font-size:18px;
+    font-family:"Gotham-Light";
+    line-height:1.4;
+}
+ .nakon-box-list .et_pb_text_inner{
+    text-align:center;
+}
+ .nakon-box-list .et_pb_text_inner p{
+    color:#7d828c;
+    font-family:"Gotham-Light";
+}
+ .nakon-box-list .et_pb_text_inner h5{
+    display:inline-block;
+    height:80px;
+    width:80px;
+    text-align:center;
+    background:#94d7f9;
+    color:#fff;
+    font-size:24px;
+    font-family:"Gotham-Black";
+    border-radius:50%;
+    padding-bottom:0;
+    line-height:12px!important;
+    padding-top:27px;
+}
+ .nakon-box-list .et_pb_text_inner h5 span{
+    font-size:9px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
+ .nakon-box-list .et_pb_text_inner h3{
+    text-transform:uppercase;
+    font-family:"Gotham-Black";
+    color:#94d7f9;
+    margin-top:22px;
+}
+ .prvi-odgovor2 .et_pb_text_inner h5{
+    background:#78caf4;
+}
+ .prvi-odgovor2 .et_pb_text_inner h3{
+    color:#78caf4;
+}
+ .prvi-odgovor3 .et_pb_text_inner h5{
+    background:#4ab6ed;
+}
+ .prvi-odgovor3 .et_pb_text_inner h3{
+    color:#4ab6ed;
+}
+ .prvi-odgovor4 .et_pb_text_inner h5{
+    background:#3ca5da;
+}
+ .prvi-odgovor4 .et_pb_text_inner h3{
+    color:#3ca5da;
+}
+ .prvi-odgovor5 .et_pb_text_inner h5{
+    background:#2e8ebf;
+}
+ .prvi-odgovor5 .et_pb_text_inner h3{
+    color:#2e8ebf;
+}
+ .prvi-odgovor6 .et_pb_text_inner h5{
+    background:#126b98;
+}
+ .prvi-odgovor6 .et_pb_text_inner h3{
+    color:#126b98;
+}
+ @media (max-width:1200px){
+     .et_pb_row{
+        max-width:95%!important;
+    }
+}
+ @media (max-width:480px){
+     .et_pb_row{
+        max-width:90%;
+    }
+     .uzimanja-kamagre-title p{
+        text-align:left;
+    }
+     .et_pb_row{
+        max-width:92%!important;
+    }
+}
+ .et_pb_row_4.et_pb_row{
+    padding-top:0px!important;
+    padding-bottom:0px!important;
+    padding-top:0px;
+    padding-bottom:0px;
+}
+ .et_pb_text_6.et_pb_text{
+    color:#7d828c!important;
+}
+ .et_pb_section_2.et_pb_section{
+    padding-top:128px;
+    padding-bottom:330px;
+    background-color:#ecf0fa!important;
+}
+ .et_pb_image_3{
+    text-align:center;
+}
+ @media only screen and (max-width:980px){
+     .et_pb_image_3{
+        margin-left:auto;
+        margin-right:auto;
+    }
+     .et_pb_section_2.et_pb_section{
+        padding-top:70px;
+        padding-bottom:70px;
+    }
+}
+ @media only screen and (max-width:767px){
+     .et_pb_section_2.et_pb_section{
+        padding-top:45px;
+        padding-bottom:45px;
+    }
+     .et_pb_image_3{
+        display:none!important;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
