@@ -1,0 +1,318 @@
+/*! CSS Used from: Embedded */
+a,div,font,img,li,ul{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    background:0 0;
+    font-size:100%;
+    vertical-align:baseline;
+    -webkit-text-size-adjust:100%;
+    -ms-text-size-adjust:100%;
+}
+ ul{
+    list-style:none;
+}
+ :focus{
+    outline:0;
+}
+ footer{
+    display:block;
+}
+ a{
+    color:#2ea3f2;
+    text-decoration:none;
+}
+ a:hover{
+    text-decoration:none;
+}
+ img{
+    max-width:100%;
+    height:auto;
+}
+ .footer-widget li:before{
+    border-color:#2ea3f2;
+}
+ .container{
+    position:relative;
+    width:80%;
+    max-width:1080px;
+    margin:auto;
+}
+ .container{
+    position:relative;
+    text-align:left;
+}
+ #main-footer{
+    background-color:#222;
+}
+ #footer-widgets{
+    padding:6% 0 0;
+}
+ .footer-widget{
+    float:left;
+    color:#fff;
+}
+ .footer-widget .fwidget:last-child{
+    margin-bottom:0!important;
+}
+ #footer-widgets .footer-widget li{
+    position:relative;
+    padding-left:14px;
+}
+ #footer-widgets .footer-widget li:before{
+    position:absolute;
+    top:9px;
+    left:0;
+    border-width:3px;
+    border-style:solid;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    content:"";
+}
+ #footer-widgets .footer-widget li a{
+    color:#fff;
+    text-decoration:none;
+}
+ #footer-widgets .footer-widget li a:hover{
+    color:rgba(255,255,255,.7);
+}
+ @media all and (max-width:980px){
+     .footer-widget:nth-child(n){
+        width:46.25%!important;
+        margin:0 7.5% 7.5% 0!important;
+    }
+     #footer-widgets .footer-widget .fwidget{
+        margin-bottom:16.21%;
+    }
+     #footer-widgets{
+        padding:8% 0;
+    }
+     #footer-widgets .footer-widget:nth-child(2n){
+        margin-right:0!important;
+    }
+     #footer-widgets .footer-widget:nth-last-child(-n+2){
+        margin-bottom:0!important;
+    }
+     .container{
+        -webkit-transition:none;
+        -moz-transition:none;
+        transition:none;
+    }
+}
+ @media all and (max-width:767px){
+     #footer-widgets .footer-widget{
+        width:100%!important;
+        margin-right:0!important;
+    }
+     #footer-widgets .footer-widget .fwidget,#footer-widgets .footer-widget:nth-child(n){
+        margin-bottom:9.5%!important;
+    }
+     #footer-widgets{
+        padding:10% 0;
+    }
+     #footer-widgets .footer-widget .fwidget:last-child{
+        margin-bottom:0!important;
+    }
+     #footer-widgets .footer-widget:last-child{
+        margin-bottom:0!important;
+    }
+}
+ @media all and (max-width:479px){
+     #footer-widgets .footer-widget:nth-child(n),.footer-widget .fwidget{
+        margin-bottom:11.5%!important;
+    }
+     #footer-widgets{
+        padding:12% 0;
+    }
+}
+ *{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+ .et_pb_widget{
+    float:left;
+    max-width:100%;
+}
+ .et_pb_widget a{
+    color:#666;
+    text-decoration:none;
+}
+ .et_pb_widget li a:hover{
+    color:#82c0c7;
+}
+ .et_pb_widget ul li{
+    margin-bottom:.5em;
+}
+ @media all and (min-width:981px){
+     .et_pb_gutters3 .footer-widget{
+        margin-right:5.5%;
+        margin-bottom:5.5%;
+    }
+     .et_pb_gutters3 .footer-widget:last-child{
+        margin-right:0;
+    }
+     .et_pb_gutters3.et_pb_footer_columns2 .footer-widget{
+        width:47.25%;
+    }
+     .et_pb_gutters3.et_pb_footer_columns2 .footer-widget .fwidget{
+        margin-bottom:11.64%;
+    }
+}
+ .clearfix:after{
+    display:block;
+    visibility:hidden;
+    clear:both;
+    height:0;
+    font-size:0;
+    content:" ";
+}
+ .et_pb_widget{
+    word-wrap:break-word;
+}
+ .clearfix:after{
+    display:block;
+    visibility:hidden;
+    clear:both;
+    height:0;
+    font-size:0;
+    content:" ";
+}
+/*! CSS Used from: https://kamagragel-hrvatska.com/wp-content/themes/divi-child/style.css?ver=4.0.9 ;
+ media=all */
+ @media all{
+     *{
+        font-family:"Arial";
+    }
+}
+/*! CSS Used from: https://kamagragel-hrvatska.com/wp-content/et-cache/7/et-core-unified-7-15805134678544.min.css */
+ .container{
+    max-width:1136px;
+}
+ #main-footer{
+    background-color:#161c2b;
+}
+ #footer-widgets .footer-widget a,#footer-widgets .footer-widget li a,#footer-widgets .footer-widget li a:hover{
+    color:#ffffff;
+}
+ .footer-widget{
+    color:#ffffff;
+}
+ .container{
+    width:100%;
+}
+ .container{
+    width:100%;
+}
+ .footer-widget .fwidget{
+    float:none;
+}
+ .widget_nav_menu ul li.menu-item{
+    display:inline-block;
+    margin-bottom:0;
+    padding-left:0!important;
+    padding-right:27px!important;
+}
+ .widget_nav_menu ul li.menu-item:last-child{
+    padding-right:0px!important;
+}
+ #footer-widgets .footer-widget li:before{
+    display:none;
+}
+ .widget_nav_menu ul li.menu-item a{
+    font-size:14px;
+    text-transform:uppercase;
+    font-family:"Gotham-Black";
+}
+ .widget_nav_menu ul li.current_page_item a{
+    color:#38bec1!important;
+}
+ #footer-widgets{
+    display:flex;
+    justify-content:space-between;
+}
+ #footer-widgets .footer-widget:nth-child(1){
+    width:40%;
+    margin:0;
+}
+ #footer-widgets .footer-widget:nth-child(2){
+    width:60%;
+    margin:0;
+    text-align:right;
+}
+ div#footer-widgets:after{
+    display:none;
+}
+ #footer-widgets .footer-widget:nth-child(2) ul#menu-main-menu{
+    line-height:1;
+    margin-top:12px;
+}
+ #footer-widgets{
+    padding:0;
+}
+ footer#main-footer{
+    padding-top:135px;
+    padding-bottom:110px;
+}
+ .et_pb_gutters3.et_pb_footer_columns2 .footer-widget .fwidget{
+    margin-bottom:0;
+}
+ .widget_nav_menu ul li.menu-item a:hover{
+    color:#38bec1!important;
+}
+ @media (max-width:1200px){
+     .container{
+        max-width:95%!important;
+    }
+     .widget_nav_menu ul li.menu-item a{
+        font-size:12px;
+    }
+}
+ @media (max-width:980px){
+     footer#main-footer{
+        padding-top:50px;
+        padding-bottom:50px;
+    }
+     #footer-widgets{
+        display:block;
+    }
+     #footer-widgets .footer-widget{
+        float:none!important;
+        width:100%!important;
+    }
+     #footer-widgets .footer-widget .fwidget{
+        margin-bottom:0;
+        text-align:center;
+    }
+     #footer-widgets .footer-widget:nth-child(2) ul#menu-main-menu{
+        line-height:1;
+        margin-top:45px;
+    }
+     .widget_nav_menu ul li.menu-item{
+        display:block;
+        margin-bottom:20px;
+        padding-left:0!important;
+        padding-right:0px!important;
+    }
+     #footer-widgets{
+        display:flex;
+        flex-direction:column-reverse;
+    }
+     #footer-widgets .footer-widget:nth-child(1) div#media_image-2{
+        display:none;
+    }
+}
+ @media (max-width:480px){
+     .container{
+        max-width:90%;
+    }
+     footer#main-footer{
+        padding-top:50px;
+        padding-bottom:1px;
+    }
+     .container{
+        max-width:92%!important;
+    }
+}

@@ -1,5 +1,5 @@
 /*! CSS Used from: Embedded */
-a,div,form,img,li,span,ul{
+a,div,font,form,img,li,span,ul{
     margin:0;
     padding:0;
     border:0;
@@ -248,6 +248,19 @@ a,div,form,img,li,span,ul{
  .mobile_nav .select_page{
     display:none;
 }
+ @media all and (min-width:981px){
+     #main-header.et-fixed-header{
+        -webkit-box-shadow:0 0 7px rgba(0,0,0,.1)!important;
+        -moz-box-shadow:0 0 7px rgba(0,0,0,.1)!important;
+        box-shadow:0 0 7px rgba(0,0,0,.1)!important;
+    }
+     .et_header_style_left .et-fixed-header #et-top-navigation{
+        padding-top:20px;
+    }
+     .et_header_style_left .et-fixed-header #et-top-navigation nav>ul>li>a{
+        padding-bottom:20px;
+    }
+}
  @media all and (max-width:980px){
      #main-header{
         -webkit-transition:none;
@@ -266,7 +279,7 @@ a,div,form,img,li,span,ul{
      .et_fixed_nav #main-header{
         position:absolute;
     }
-     .et_header_style_left #et-top-navigation{
+     .et_header_style_left #et-top-navigation,.et_header_style_left .et-fixed-header #et-top-navigation{
         display:block;
         padding-top:24px;
     }
@@ -447,6 +460,11 @@ a,div,form,img,li,span,ul{
     text-transform:uppercase;
     font-family:"Gotham-Black";
 }
+ #main-header.et-fixed-header{
+    margin-top:0;
+    background:rgba(0,0,0,0.6);
+    box-shadow:none;
+}
  nav#top-menu-nav ul li a:after{
     content:"";
     position:absolute;
@@ -476,6 +494,12 @@ a,div,form,img,li,span,ul{
  nav#top-menu-nav ul li a:hover{
     opacity:1;
     color:#4ab6ed;
+}
+ header.et-fixed-header #top-menu li.current_page_item a:after{
+    bottom:10px;
+}
+ header.et-fixed-header #top-menu li a:hover:after{
+    bottom:10px;
 }
  @media (max-width:1200px){
      .container{
