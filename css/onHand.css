@@ -1,0 +1,465 @@
+/*! CSS Used from: Embedded */
+a,del,div,font,h3,h4,img,p,span{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    background:0 0;
+    font-size:100%;
+    vertical-align:baseline;
+    -webkit-text-size-adjust:100%;
+    -ms-text-size-adjust:100%;
+}
+ :focus{
+    outline:0;
+}
+ del{
+    text-decoration:line-through;
+}
+ a{
+    color:#2ea3f2;
+    text-decoration:none;
+}
+ a:hover{
+    text-decoration:none;
+}
+ p{
+    padding-bottom:1em;
+}
+ p:not(.has-background):last-of-type{
+    padding-bottom:0;
+}
+ h3,h4{
+    padding-bottom:10px;
+    color:#333;
+    font-weight:500;
+    line-height:1em;
+}
+ h3{
+    font-size:22px;
+}
+ h4{
+    font-size:18px;
+}
+ img{
+    max-width:100%;
+    height:auto;
+}
+ *{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+ @media all and (min-width:981px){
+     .et_pb_gutters3 .et_pb_column{
+        margin-right:5.5%;
+    }
+     .et_pb_gutters3 .et_pb_column_4_4{
+        width:100%;
+    }
+     .et_pb_gutters3 .et_pb_column_4_4 .et_pb_module{
+        margin-bottom:2.75%;
+    }
+}
+ @media all and (max-width:479px){
+     .et_pb_column{
+        width:100%!important;
+    }
+}
+ .et_pb_text{
+    word-wrap:break-word;
+}
+ .et_pb_row{
+    position:relative;
+    width:80%;
+    max-width:1080px;
+    margin:auto;
+}
+ .et_pb_column{
+    float:left;
+    position:relative;
+    z-index:2;
+    background-position:center;
+    background-size:cover;
+}
+ .et_pb_css_mix_blend_mode_passthrough{
+    mix-blend-mode:unset!important;
+}
+ .et_pb_column,.et_pb_module,.et_pb_row{
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+ .et_pb_row:after{
+    display:block;
+    visibility:hidden;
+    clear:both;
+    width:0;
+    height:0;
+    line-height:0;
+    content:"";
+}
+ .et_pb_section{
+    background-position:center;
+    -webkit-background-size:100%;
+    -webkit-background-size:cover;
+    -moz-background-size:100%;
+    -moz-background-size:cover;
+    background-size:100%;
+    background-size:cover;
+}
+ .et_pb_text>:last-child{
+    padding-bottom:0;
+}
+ .et_pb_text_inner{
+    position:relative;
+}
+ .et_pb_text_align_left{
+    text-align:left;
+}
+ .et_pb_section{
+    position:relative;
+    background-color:#fff;
+}
+ .et_pb_row .et_pb_column.et-last-child,.et_pb_row .et_pb_column:last-child{
+    margin-right:0!important;
+}
+ .et_pb_module{
+    -webkit-animation-timing-function:linear;
+    -moz-animation-timing-function:linear;
+    -o-animation-timing-function:linear;
+    animation-timing-function:linear;
+}
+ .et_pb_module{
+    -webkit-animation-duration:.2s;
+    -moz-animation-duration:.2s;
+    -o-animation-duration:.2s;
+    animation-duration:.2s;
+}
+ @media all and (min-width:981px){
+     .et_pb_section{
+        padding:4% 0;
+    }
+     .et_pb_row{
+        padding:2% 0;
+    }
+     .et_pb_section .et_pb_row .et_pb_column .et_pb_module:last-child{
+        margin-bottom:0;
+    }
+     .et_pb_row .et_pb_column.et-last-child,.et_pb_row .et_pb_column:last-child{
+        margin-right:0!important;
+    }
+}
+ @media all and (max-width:980px){
+     .et_pb_column{
+        width:100%;
+        margin-bottom:30px;
+    }
+     .et_pb_section{
+        padding:50px 0;
+    }
+     .et_pb_row{
+        padding:30px 0;
+    }
+     .et_pb_row .et_pb_column.et-last-child,.et_pb_row .et_pb_column:last-child{
+        margin-bottom:0;
+    }
+     .et_pb_column .et_pb_module{
+        margin-bottom:30px;
+    }
+     .et_pb_row .et_pb_column .et_pb_module:last-child{
+        margin-bottom:0;
+    }
+     .et_pb_row{
+        max-width:1080px;
+    }
+}
+/*! CSS Used from: https://kamagragel-hrvatska.com/wp-content/themes/divi-child/style.css?ver=4.0.9 ;
+ media=all */
+ @media all{
+     *{
+        font-family:"Arial";
+    }
+     .swiper-button-next{
+        background-image:url(https://kamagragel-hrvatska.com/wp-content/themes/divi-child/images/right-arrow.png);
+        width:69px!important;
+        height:70px!important;
+    }
+     .swiper-button-next:hover{
+        background-image:url(https://kamagragel-hrvatska.com/wp-content/themes/divi-child/images/active-right.png);
+    }
+     .swiper-button-prev{
+        background-image:url(https://kamagragel-hrvatska.com/wp-content/themes/divi-child/images/left-arrow.png);
+        width:69px!important;
+        height:70px!important;
+    }
+     .swiper-button-prev:hover{
+        background-image:url(https://kamagragel-hrvatska.com/wp-content/themes/divi-child/images/active-left.png);
+    }
+     .swiper-button-next:after,.swiper-button-prev:after{
+        display:none;
+    }
+     .naruci-price del{
+        display:none;
+    }
+     .offer_per{
+        position:absolute;
+        top:-3px;
+        border-radius:10px 0 0 0;
+        left:-1px;
+        width:103px;
+        height:57px;
+        text-align:left;
+        padding-left:7px;
+        padding-top:7px;
+        color:#ffffff;
+        font-family:"Gotham-Black";
+        font-size:18px;
+    }
+}
+/*! CSS Used from: https://kamagragel-hrvatska.com/wp-content/et-cache/7/et-core-unified-7-15805134678544.min.css */
+ .et_pb_row{
+    max-width:1136px;
+}
+ @media only screen and (min-width:1420px){
+     .et_pb_row{
+        padding:28px 0;
+    }
+     .et_pb_section{
+        padding:56px 0;
+    }
+}
+ .et_pb_row{
+    width:100%;
+}
+ .et_pb_row{
+    width:100%;
+}
+ .Naruci-main-sec .et_pb_text_inner h3{
+    font-family:"Gotham-Black";
+}
+ .Naruci-main-sec{
+    margin-top:23px;
+}
+ .naruci-img{
+    background:#fff;
+    -webkit-box-shadow:0px 0px 20px rgba(0,0,0,.1);
+    box-shadow:0px 10px 20px rgba(0,0,0,.1);
+    border-radius:6px;
+    padding-top:18px;
+    text-align:center;
+    padding-bottom:10px;
+    margin-bottom:8px;
+    border:2px solid #ffffff;
+}
+ .naruci-img img{
+    width:auto;
+    max-width:100%;
+    max-height:177px;
+}
+ .naruci_slider{
+    max-width:950px;
+    margin-top:55px;
+    padding:0 10px!important;
+}
+ .naruci-inner-sec p{
+    color:#7d828c;
+    font-size:12px;
+    text-transform:capitalize;
+    font-family:"Gotham-Light";
+}
+ .naruci-inner-sec h4{
+    color:#4e566d;
+    font-size:16px;
+    font-family:"Gotham-Black";
+    line-height:1.2;
+    margin-top:5px;
+    padding-bottom:7px;
+}
+ .naruci-price p{
+    color:#4e566d;
+    font-size:18px;
+    font-family:"Gotham-Black";
+}
+ .naruci-btn a{
+    color:#4ab6ed;
+    border:2px solid #4ab6ed;
+    display:block;
+    text-align:center;
+    text-transform:uppercase;
+    font-family:"Gotham-Black";
+    font-size:14px;
+    height:60px;
+    line-height:60px;
+    border-radius:6px;
+    margin-top:14px;
+    cursor:pointer;
+}
+ .naruci-main-slider{
+    position:relative;
+}
+ .naruci-btn a:hover{
+    background:#4ab6ed;
+    color:#fff;
+    transition:700ms;
+}
+ .swiper-button-next{
+    right:0!important;
+}
+ .swiper-button-prev{
+    left:0!important;
+}
+ .naruci-main-slider .swiper-button-next{
+    top:30%!important;
+}
+ .naruci-main-slider .swiper-button-prev{
+    top:30%!important;
+}
+ .naruci-price{
+    display:flex;
+}
+ .naruci-price p{
+    margin-right:10px;
+}
+ .naruci-price del{
+    color:#ff8888;
+    font-family:"Gotham-Black";
+}
+ .offer_tag{
+    position:relative;
+    border:2px solid #ff3e3e;
+}
+ .naruci-inner-sec:hover h4#prodTitle{
+    color:#4ab6ed;
+}
+ @media (max-width:1200px){
+     .et_pb_row{
+        max-width:95%!important;
+    }
+}
+ @media (max-width:480px){
+     .et_pb_row{
+        max-width:90%;
+    }
+     .swiper-button-prev,.swiper-button-next{
+        width:50px!important;
+        height:51px!important;
+        background-size:100%;
+        background-repeat:no-repeat;
+    }
+     .naruci_slider{
+        padding:0 0px!important;
+        max-width:215px;
+        margin-top:30px;
+    }
+     .naruci-img{
+        box-shadow:none;
+    }
+     .et_pb_row{
+        max-width:92%!important;
+    }
+}
+ .et_pb_section_5.et_pb_section{
+    padding-top:0px;
+    padding-bottom:125px;
+}
+ .et_pb_text_18 h3{
+    font-weight:800;
+    text-transform:uppercase;
+    font-size:36px;
+    color:#4e566d!important;
+    text-align:center;
+}
+ @media only screen and (max-width:980px){
+     .et_pb_text_18 h3{
+        font-size:30px;
+    }
+     .et_pb_section_5.et_pb_section{
+        padding-bottom:30px;
+    }
+     .et_pb_row_7.et_pb_row{
+        padding-top:0px!important;
+        padding-top:0px!important;
+    }
+}
+/*! CSS Used from: https://swiperjs.com/package/css/swiper.min.css */
+ .swiper-container{
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    overflow:hidden;
+    list-style:none;
+    padding:0;
+    z-index:1;
+}
+ .swiper-wrapper{
+    position:relative;
+    width:100%;
+    height:100%;
+    z-index:1;
+    display:flex;
+    transition-property:transform;
+    box-sizing:content-box;
+}
+ .swiper-wrapper{
+    transform:translate3d(0px,0,0);
+}
+ .swiper-slide{
+    flex-shrink:0;
+    width:100%;
+    height:100%;
+    position:relative;
+    transition-property:transform;
+}
+ .swiper-button-next,.swiper-button-prev{
+    position:absolute;
+    top:50%;
+    width:calc(var(--swiper-navigation-size)/ 44 * 27);
+    height:var(--swiper-navigation-size);
+    margin-top:calc(-1 * var(--swiper-navigation-size)/ 2);
+    z-index:10;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:var(--swiper-navigation-color,var(--swiper-theme-color));
+}
+ .swiper-button-next:after,.swiper-button-prev:after{
+    font-family:swiper-icons;
+    font-size:var(--swiper-navigation-size);
+    text-transform:none!important;
+    letter-spacing:0;
+    text-transform:none;
+    font-variant:initial;
+}
+ .swiper-button-prev{
+    left:10px;
+    right:auto;
+}
+ .swiper-button-prev:after{
+    content:'prev';
+}
+ .swiper-button-next{
+    right:10px;
+    left:auto;
+}
+ .swiper-button-next:after{
+    content:'next';
+}
+ .swiper-container .swiper-notification{
+    position:absolute;
+    left:0;
+    top:0;
+    pointer-events:none;
+    opacity:0;
+    z-index:-1000;
+}
+/*! CSS Used fontfaces */
+ /* @font-face{
+    font-family:swiper-icons;
+    src:url("data:application/font-woff;
+    charset=utf-8;
+    base64, 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") format("woff");
+    font-weight:400;
+    font-style:normal;
+} */
