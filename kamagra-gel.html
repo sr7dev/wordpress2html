@@ -17,12 +17,18 @@
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:description" content="Kamagra Gel - Kamagra oral Jelly je gel za potenciju koji će Vam poboljšati i ojačati erekciju. Kod nas ga možete dobiti već danas bez recepta!">
 	<meta name="twitter:title" content="Kamagra Gel - Kamagra Oral jelly - Gel za potenciju - Naruči bez recepta!">
-	<meta name="twitter:image" content="../wp-content/uploads/2019/12/product-image-small.png">
+	<meta name="twitter:image" content="images/2019/12/product-image-small.png">
+
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/kamagra-top.css">
+    <link rel="stylesheet" href="css/kamagra-tab.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/modal.css">
 </head>
 
 <body class="naruci-template-default single single-naruci postid-294 et_pb_button_helper_class et_fixed_nav et_show_nav et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_header_style_left et_pb_footer_columns2 et_cover_background et_pb_gutter et_pb_gutters3 et_pb_pagebuilder_layout et_right_sidebar et_divi_theme et-db et_minified_js et_minified_css">
 	<div id="page-container">
-		<header id="main-header" data-height-onload="66">
+		<header id="main-header" data-height-onload="66" class="et-fixed-header">
 			<div class="container clearfix et_menu_container">
 				<div class="logo_container"> <span class="logo_helper"></span>
 					<a href="../index.html"> <img src="images/2020/01/logo.png" alt="Kamagragel Hrvatska" id="logo" data-height-percentage="54"></a>
@@ -367,51 +373,7 @@
 					</div>
 				</div>
 			</div>
-			<script type="text/javascript">
-                function incrementValue(e) {
-                    e.preventDefault();
-                    var fieldName = jQuery(e.target).data('field');
-                    var parent = jQuery(e.target).closest('div');
-                    var currentVal = parseInt(parent.find('input[name=' + fieldName + ']').val(), 10);
-                    var myArray = ['1', '2', '3', '4', '5'];
-                    var val = jQuery('input[name=' + fieldName + ']').val();
-                    var index = myArray.indexOf(val);
-                    if(index >= 0 && index < myArray.length - 1) {
-                        var next = myArray[index + 1];
-                        parent.find('input[name=' + fieldName + ']').val(next);
-                    }
-                }
-
-                function decrementValue(e) {
-                    e.preventDefault();
-                    var fieldName = jQuery(e.target).data('field');
-                    var parent = jQuery(e.target).closest('div');
-                    var currentVal = parseInt(parent.find('input[name=' + fieldName + ']').val(), 10);
-                    var myArray = ['1', '2', '3', '4', '5'];
-                    var val = jQuery('input[name=' + fieldName + ']').val();
-                    var index = myArray.indexOf(val);
-                    if(index != 0) {
-                        var next = myArray[index - 1];
-                        parent.find('input[name=' + fieldName + ']').val(next);
-                    }
-                }
-                jQuery('.input-group').on('click', '.button-plus', function(e) {
-                    incrementValue(e);
-                    jQuery(".product-variation-row").removeClass("rowActive");
-                    var val = jQuery('input[name=quantity]').val();
-                    jQuery("#variation-" + val).addClass("rowActive");
-                    var cPrice = jQuery("#variation-" + val + " .rowPrice").html()
-                    jQuery(".change-price").html(cPrice);
-                });
-                jQuery('.input-group').on('click', '.button-minus', function(e) {
-                    decrementValue(e);
-                    jQuery(".product-variation-row").removeClass("rowActive");
-                    var val = jQuery('input[name=quantity]').val();
-                    jQuery("#variation-" + val).addClass("rowActive");
-                    var cPrice = jQuery("#variation-" + val + " .rowPrice").html()
-                    jQuery(".change-price").html(cPrice);
-                });
-			</script>
+			
 			<footer id="main-footer">
 				<div class="container">
 					<div id="footer-widgets" class="clearfix">
@@ -538,7 +500,51 @@
                 modal.style.display = "none";
             }
         }
-	</script>
+	
+        function incrementValue(e) {
+            e.preventDefault();
+            var fieldName = jQuery(e.target).data('field');
+            var parent = jQuery(e.target).closest('div');
+            var currentVal = parseInt(parent.find('input[name=' + fieldName + ']').val(), 10);
+            var myArray = ['1', '2', '3', '4', '5'];
+            var val = jQuery('input[name=' + fieldName + ']').val();
+            var index = myArray.indexOf(val);
+            if(index >= 0 && index < myArray.length - 1) {
+                var next = myArray[index + 1];
+                parent.find('input[name=' + fieldName + ']').val(next);
+            }
+        }
+
+        function decrementValue(e) {
+            e.preventDefault();
+            var fieldName = jQuery(e.target).data('field');
+            var parent = jQuery(e.target).closest('div');
+            var currentVal = parseInt(parent.find('input[name=' + fieldName + ']').val(), 10);
+            var myArray = ['1', '2', '3', '4', '5'];
+            var val = jQuery('input[name=' + fieldName + ']').val();
+            var index = myArray.indexOf(val);
+            if(index != 0) {
+                var next = myArray[index - 1];
+                parent.find('input[name=' + fieldName + ']').val(next);
+            }
+        }
+        jQuery('.input-group').on('click', '.button-plus', function(e) {
+            incrementValue(e);
+            jQuery(".product-variation-row").removeClass("rowActive");
+            var val = jQuery('input[name=quantity]').val();
+            jQuery("#variation-" + val).addClass("rowActive");
+            var cPrice = jQuery("#variation-" + val + " .rowPrice").html()
+            jQuery(".change-price").html(cPrice);
+        });
+        jQuery('.input-group').on('click', '.button-minus', function(e) {
+            decrementValue(e);
+            jQuery(".product-variation-row").removeClass("rowActive");
+            var val = jQuery('input[name=quantity]').val();
+            jQuery("#variation-" + val).addClass("rowActive");
+            var cPrice = jQuery("#variation-" + val + " .rowPrice").html()
+            jQuery(".change-price").html(cPrice);
+        });
+    </script>
 </body>
 
 </html>
