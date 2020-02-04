@@ -19,21 +19,20 @@
 	<meta name="twitter:title" content="Kamagra Gel - Kamagra Oral jelly - Gel za potenciju - Naruči bez recepta!">
 	<meta name="twitter:image" content="images/2019/12/product-image-small.png">
 
-    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/kamagragelHeader.css">
     <link rel="stylesheet" href="css/kamagra-top.css">
     <link rel="stylesheet" href="css/kamagra-tab.css">
 	<link rel="stylesheet" href="css/footer.css">
 	<link rel="stylesheet" href="css/modal.css">
 </head>
 
-<body class="naruci-template-default single single-naruci postid-294 et_pb_button_helper_class et_fixed_nav et_show_nav et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_header_style_left et_pb_footer_columns2 et_cover_background et_pb_gutter et_pb_gutters3 et_pb_pagebuilder_layout et_right_sidebar et_divi_theme et-db et_minified_js et_minified_css">
+<body class="naruci-template-default single single-naruci postid-294 et_pb_button_helper_class et_fixed_nav et_show_nav et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_header_style_left et_pb_footer_columns2 et_cover_background et_pb_gutter et_pb_gutters3 et_pb_pagebuilder_layout et_right_sidebar et_divi_theme et-db et_minified_js et_minified_css" style="margin: 0;">
 	<div id="page-container">
-		<header id="main-header" data-height-onload="66" class="et-fixed-header">
+		<header id="main-header" data-height-onload="80" data-height-loaded="true" data-fixed-height-onload="80" style="top: 0px;">
 			<div class="container clearfix et_menu_container">
-				<div class="logo_container"> <span class="logo_helper"></span>
-					<a href="../index.html"> <img src="images/2020/01/logo.png" alt="Kamagragel Hrvatska" id="logo" data-height-percentage="54"></a>
-				</div>
-				<div id="et-top-navigation" data-height="66" data-fixed-height="40">
+				<div class="logo_container"> <span class="logo_helper"></span> <a href="index.html"> <img src="images/2020/01/logo.png" alt="Kamagragel Hrvatska" id="logo" data-height-percentage="54" data-actual-width="268" data-actual-height="32"> </a></div>
+				<div
+					id="et-top-navigation" data-height="66" data-fixed-height="40" style="padding-left: 298px;">
 					<nav id="top-menu-nav">
 						<ul id="top-menu" class="nav">
 							<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-25"><a href="index.html">Kamagra Hrvatksa</a></li>
@@ -41,22 +40,25 @@
 						</ul>
 					</nav>
 					<div id="et_mobile_nav_menu">
-						<div class="mobile_nav closed"> <span class="select_page">Select Page</span> <span class="mobile_menu_bar mobile_menu_bar_toggle"></span> </div>
+						<div class="mobile_nav closed"> <span class="select_page">Select Page</span> <span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
+							<ul id="mobile_menu" class="et_mobile_menu">
+								<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-25 et_first_mobile_item"><a href="index.html">Kamagra Hrvatksa</a></li>
+								<li id="menu-item-26" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-26"><a href="kamagra-gel.html" aria-current="page">Kamagra Gel Naruči</a></li>
+							</ul>
+						</div>
 					</div>
-				</div>
+			</div>
 			</div>
 			<div class="et_search_outer">
 				<div class="container et_search_form_container">
-					<form role="search" method="get" class="et-search-form" action="http://OFFLINEZIP.wpsho/">
-						<input type="search" class="et-search-field" placeholder="Search …" value="" name="s" title="Search for:">
-					</form> <span class="et_close_search_field"></span> </div>
+					<form role="search" method="get" class="et-search-form" action="https://kamagragel-hrvatska.com/"> <input type="search" class="et-search-field" placeholder="Search …" value="" name="s" title="Search for:"></form> <span class="et_close_search_field"></span></div>
 			</div>
 		</header>
 		<div id="et-main-area">
 			<div id="main-content">
 				<div class="single-product-box">
 					<div id="content-area" class="clearfix">
-						<div class="container">
+						<div class="container" style="padding-top: 138px;">
 							<div class="product-single-top-sec">
 								<div class="product-single-top-left"> <img width="182" height="177" src="images/2019/12/product-image-small.png" class="attachment-full size-full wp-post-image" alt=""></div>
 								<div class="product-single-top-right">
@@ -544,6 +546,15 @@
             var cPrice = jQuery("#variation-" + val + " .rowPrice").html()
             jQuery(".change-price").html(cPrice);
         });
+		$(window).scroll(function() {    
+			var scroll = $(window).scrollTop();
+
+			if (scroll >= 100) {
+				$("header").addClass("et-fixed-header");
+			} else {
+				$("header").removeClass("et-fixed-header");
+			}
+		});
     </script>
 </body>
 
