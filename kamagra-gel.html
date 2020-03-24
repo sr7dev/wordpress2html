@@ -481,80 +481,80 @@
 	</script>
     <script src="js/jquery.js" type="text/javascript"></script>
 	<script>
-        jQuery(".popup-open-btn, .naruci-inner-sec").click(function(e) {
-            e.preventDefault();
-            var ldiv = jQuery(this).parents("div").attr("id");
-            jQuery("#prod_title").html(jQuery("#" + ldiv + " #prodTitle").html());
-            jQuery(".proT").val(jQuery("#" + ldiv + " #prodTitle").html());
-            //jQuery(".proL").val(jQuery("#"+ldiv+" #prodLink").attr("href"));
-            jQuery("#myModal").show();
-            jQuery('input[name="product-price"').val(jQuery(this).closest('.quantity-price-sec').find('.change-price').text());
-            jQuery('input[name="product-quantity"').val(jQuery(this).closest('.quantity-price-sec').find('.quantity-field').val());
-            jQuery('#prod_price').text(jQuery(this).closest('.quantity-price-sec').find('.change-price').text());
-            jQuery('#prod_quantity').text(jQuery(this).closest('.quantity-price-sec').find('.quantity-field').val());
-        });
-        jQuery(".close-popup").click(function() {
-            jQuery("#myModal").hide();
-        });
-        var modal = document.getElementById("myModal");
-        window.onclick = function(event) {
-            if(event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-	
-        function incrementValue(e) {
-            e.preventDefault();
-            var fieldName = jQuery(e.target).data('field');
-            var parent = jQuery(e.target).closest('div');
-            var currentVal = parseInt(parent.find('input[name=' + fieldName + ']').val(), 10);
-            var myArray = ['1', '2', '3', '4', '5'];
-            var val = jQuery('input[name=' + fieldName + ']').val();
-            var index = myArray.indexOf(val);
-            if(index >= 0 && index < myArray.length - 1) {
-                var next = myArray[index + 1];
-                parent.find('input[name=' + fieldName + ']').val(next);
-            }
-        }
-
-        function decrementValue(e) {
-            e.preventDefault();
-            var fieldName = jQuery(e.target).data('field');
-            var parent = jQuery(e.target).closest('div');
-            var currentVal = parseInt(parent.find('input[name=' + fieldName + ']').val(), 10);
-            var myArray = ['1', '2', '3', '4', '5'];
-            var val = jQuery('input[name=' + fieldName + ']').val();
-            var index = myArray.indexOf(val);
-            if(index != 0) {
-                var next = myArray[index - 1];
-                parent.find('input[name=' + fieldName + ']').val(next);
-            }
-        }
-        jQuery('.input-group').on('click', '.button-plus', function(e) {
-            incrementValue(e);
-            jQuery(".product-variation-row").removeClass("rowActive");
-            var val = jQuery('input[name=quantity]').val();
-            jQuery("#variation-" + val).addClass("rowActive");
-            var cPrice = jQuery("#variation-" + val + " .rowPrice").html()
-            jQuery(".change-price").html(cPrice);
-        });
-        jQuery('.input-group').on('click', '.button-minus', function(e) {
-            decrementValue(e);
-            jQuery(".product-variation-row").removeClass("rowActive");
-            var val = jQuery('input[name=quantity]').val();
-            jQuery("#variation-" + val).addClass("rowActive");
-            var cPrice = jQuery("#variation-" + val + " .rowPrice").html()
-            jQuery(".change-price").html(cPrice);
-        });
-		$(window).scroll(function() {    
-			var scroll = $(window).scrollTop();
-
-			if (scroll >= 100) {
-				$("header").addClass("et-fixed-header");
-			} else {
-				$("header").removeClass("et-fixed-header");
-			}
+		jQuery(".popup-open-btn, .naruci-inner-sec").click(function(e) {
+		    e.preventDefault();
+		    var ldiv = jQuery(this).parents("div").attr("id");
+		    jQuery("#prod_title").html(jQuery("#" + ldiv + " #prodTitle").html());
+		    jQuery(".proT").val(jQuery("#" + ldiv + " #prodTitle").html());
+		    //jQuery(".proL").val(jQuery("#"+ldiv+" #prodLink").attr("href"));
+		    jQuery("#myModal").show();
+		    jQuery('input[name="product-price"').val(jQuery(this).closest('.quantity-price-sec').find('.change-price').text());
+		    jQuery('input[name="product-quantity"').val(jQuery(this).closest('.quantity-price-sec').find('.quantity-field').val());
+		    jQuery('#prod_price').text(jQuery(this).closest('.quantity-price-sec').find('.change-price').text());
+		    jQuery('#prod_quantity').text(jQuery(this).closest('.quantity-price-sec').find('.quantity-field').val());
 		});
+		jQuery(".close-popup").click(function() {
+		    jQuery("#myModal").hide();
+		});
+		var modal = document.getElementById("myModal");
+		window.onclick = function(event) {
+		    if(event.target == modal) {
+			modal.style.display = "none";
+		    }
+		}
+
+		function incrementValue(e) {
+		    e.preventDefault();
+		    var fieldName = jQuery(e.target).data('field');
+		    var parent = jQuery(e.target).closest('div');
+		    var currentVal = parseInt(parent.find('input[name=' + fieldName + ']').val(), 10);
+		    var myArray = ['1', '2', '3', '4', '5'];
+		    var val = jQuery('input[name=' + fieldName + ']').val();
+		    var index = myArray.indexOf(val);
+		    if(index >= 0 && index < myArray.length - 1) {
+			var next = myArray[index + 1];
+			parent.find('input[name=' + fieldName + ']').val(next);
+		    }
+		}
+
+		function decrementValue(e) {
+		    e.preventDefault();
+		    var fieldName = jQuery(e.target).data('field');
+		    var parent = jQuery(e.target).closest('div');
+		    var currentVal = parseInt(parent.find('input[name=' + fieldName + ']').val(), 10);
+		    var myArray = ['1', '2', '3', '4', '5'];
+		    var val = jQuery('input[name=' + fieldName + ']').val();
+		    var index = myArray.indexOf(val);
+		    if(index != 0) {
+			var next = myArray[index - 1];
+			parent.find('input[name=' + fieldName + ']').val(next);
+		    }
+		}
+		jQuery('.input-group').on('click', '.button-plus', function(e) {
+		    incrementValue(e);
+		    jQuery(".product-variation-row").removeClass("rowActive");
+		    var val = jQuery('input[name=quantity]').val();
+		    jQuery("#variation-" + val).addClass("rowActive");
+		    var cPrice = jQuery("#variation-" + val + " .rowPrice").html()
+		    jQuery(".change-price").html(cPrice);
+		});
+		jQuery('.input-group').on('click', '.button-minus', function(e) {
+		    decrementValue(e);
+		    jQuery(".product-variation-row").removeClass("rowActive");
+		    var val = jQuery('input[name=quantity]').val();
+		    jQuery("#variation-" + val).addClass("rowActive");
+		    var cPrice = jQuery("#variation-" + val + " .rowPrice").html()
+		    jQuery(".change-price").html(cPrice);
+		});
+			$(window).scroll(function() {    
+				var scroll = $(window).scrollTop();
+
+				if (scroll >= 100) {
+					$("header").addClass("et-fixed-header");
+				} else {
+					$("header").removeClass("et-fixed-header");
+				}
+			});
     </script>
 </body>
 
